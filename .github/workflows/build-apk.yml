@@ -17,7 +17,6 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-title: Build with Gradle
       - name: Build with Gradle
         run: |
           echo "sdk.dir=$ANDROID_HOME" > local.properties
